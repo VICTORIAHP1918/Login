@@ -5,14 +5,11 @@ import "./SeccionCentral.css"
 
 const SeccionCentral = ()=>{
     return <div >
-    <Titulo />
+    <Titulo texto={"LogIn"} color="blue"/>
     <div className="centrar">
         <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Universidad_de_Lima_logo.png" />
-    </div>
-        
+    </div> 
         <FormularioLogIn/>
-    </div>
-
-    
+    </div>   
 }
 export default SeccionCentral
